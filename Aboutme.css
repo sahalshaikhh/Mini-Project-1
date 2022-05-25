@@ -1,0 +1,236 @@
+@import url("https://fonts.googleapis.com/css2?family=Oswald&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Oswald:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: rgb(192, 211, 228);
+}
+.hello {
+  text-align: center;
+  margin: 0em 15em 10px 0em;
+  font-family: "Oswald", sans-serif;
+  font-size: 29px;
+}
+.name h1 {
+  text-align: center;
+  margin: -38px 0em 0em 2em;
+  font-family: "Oswald", sans-serif;
+  font-size: 7em;
+}
+.website {
+  text-align: right;
+  margin-right: 3em;
+  font-family: "Oswald", sans-serif;
+  font-size: 2em;
+}
+nav {
+  border: 2px solid black;
+  border-radius: 12px;
+  margin: 0px 7px 8px 4px;
+}
+.aa {
+  height: 4vh;
+  margin: 0px 0px;
+  padding: 0.5em 9px;
+}
+input {
+  background-color: rgb(255, 254, 253);
+  border-radius: 4px;
+  text-align: center;
+}
+.btn {
+  float: left;
+  margin: 4px 15px;
+  padding: 0px 15px;
+  margin-right: 590px;
+  font-family: "Oswald", sans-serif;
+  font-size: 1em;
+}
+ul li a {
+  text-decoration: none;
+  padding: 0px 10px;
+  color: black;
+  font-size: 23px;
+  float: right;
+  font-family: "Oswald", sans-serif;
+}
+ul {
+  display: flex;
+  list-style-type: none;
+  padding: 25px 0px;
+  justify-content: right;
+}
+ul li a:hover {
+  color: rgb(60, 160, 226);
+  font-size: 25px;
+  background-color: antiquewhite;
+  border-radius: 12px;
+}
+.namme {
+  padding: 1em 0px 0px 10em;
+  font-family: "Oswald", sans-serif;
+  font-size: 35px;
+  color: rgb(60, 160, 226);
+}
+.pic {
+  display: flex;
+  height: 35vh;
+}
+.about {
+  color: rgb(60, 160, 226);
+  font-family: "Lato", sans-serif;
+  margin: 2em 30em;
+}
+.sou {
+  padding: 0px 8em;
+}
+.myinfo {
+  text-align: center;
+  font-family: "Lato", sans-serif;
+  margin-top: 20px;
+  padding-right: 12em;
+  font-size: 3em;
+  color: rgb(60, 160, 226);
+}
+.hobby {
+  font-size: 3em;
+  margin: 20px 0px 0px 0px;
+  padding-left: 1em;
+  font-family: "Oswald", sans-serif;
+  color: rgb(60, 160, 226);
+}
+.a {
+  padding-top: 20px;
+  padding-left: 102px;
+  color: rgb(60, 160, 226);
+  font-family: "Oswald", sans-serif;
+}
+.img {
+  height: 40vh;
+  margin: 40px 0px 0px 190px;
+}
+.gym {
+  padding: 80px 0px 93px 107px;
+  font-size: 2em;
+  margin-top: 50px;
+  padding: 50px;
+  color: rgb(60, 160, 226);
+  font-family: "Oswald", sans-serif;
+}
+.f {
+  display: flex;
+}
+.b {
+  padding-top: 20px;
+  padding-left: 102px;
+  color: rgb(60, 160, 226);
+  font-family: "Oswald", sans-serif;
+  float: right;
+  margin-right: 23px;
+}
+.imgb {
+  float: right;
+  padding-top: 90px;
+  margin: 0px -270px;
+}
+.prog {
+  padding: 80px 0px 93px 107px;
+  font-size: 2em;
+  padding: 130px 153px;
+  color: rgb(60, 160, 226);
+  font-family: "Oswald", sans-serif;
+}
+.c {
+  padding-top: -20px;
+  padding-left: 102px;
+  color: rgb(60, 160, 226);
+  font-family: "Oswald", sans-serif;
+}
+.imgc {
+  margin: 2em 0em 0em 11em;
+  height: 40vh;
+  width: 20vw;
+}
+.game {
+  padding-top: 2em;
+  margin-left: 2em;
+  font-size: 2em;
+  color: rgb(60, 160, 226);
+  font-family: "Oswald", sans-serif;
+}
+.h {
+  display: flex;
+}
+footer .author {
+  margin-top: 1em;
+  font-family: "Oswald", sans-serif;
+}
+.imgd {
+  height: 6vh;
+  width: auto;
+  padding-top: 0.6em;
+}
+.fp {
+  text-align: center;
+  padding-top: 0.6em;
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    align-items: center;
+    padding: 10px 45px 0px 30px;
+  }
+  .name {
+    font-size: 7px;
+    padding: 10px 0px 0px 0px;
+  }
+  .website {
+    font-size: 15px;
+  }
+  .hello {
+    margin: 0.2em;
+    padding: 20px;
+    padding-right: 250px;
+  }
+  .website {
+    font-size: 15px;
+    padding-right: 55px;
+    padding-bottom: 5px;
+  }
+  ul li a {
+    font-size: small;
+    padding: 0px 5px;
+    margin: 5px;
+  }
+  .myinfo {
+    font-size: 45px;
+    padding: 15px 220px 15px 0px;
+  }
+  .pic {
+    height: 10em;
+    padding-top: 20px;
+  }
+  .about {
+    margin: 20px 40px 0px 70px;
+    padding: 0px 95px;
+  }
+  .img {
+    height: 200px;
+    margin: 0px 10px 0px 43px;
+    padding-top: 50px;
+  }
+  .gym {
+    font-size: 18px;
+    margin: 40px 35px 17px 20px;
+  }
+  .imgb {
+    height: 200px;
+    padding: 90px 0px 0px 0px;
+  }
+  .prog {
+    padding: 105px 284px 45px 10px;
+    font-size: 20px;
+  }
+}
